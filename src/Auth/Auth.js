@@ -1,13 +1,27 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import LogInForm from './LoginForm'
+import {registerAsyncActionCreator} from '../state/auth'
+
+import LogInForm from './LogInForm'
+import RegisterForm from './RegisterForm'
 
 const Auth = props =>{
+
+    const [toggleForm, setToggleForm] = React.useState(true)
+
     return (
         props._isLogged ?
         props.children
         :
-        <LogInForm />
+        toggleForm ?
+        <LogInForm 
+        toggleForm={() => setToggleForm(false)}
+        />       
+        :
+        <RegisterForm
+        toggleForm={() => setToggleForm(true)}
+        _register={props._register}
+        />
     )
 }
 
@@ -16,7 +30,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-
+    _register: (email, password) => dispatch(registerAsyncActionCreator(email, password))
 })
 
 export default connect(
