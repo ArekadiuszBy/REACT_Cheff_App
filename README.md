@@ -79,7 +79,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 #_________________________________________________________________________________________________________
 
-### + We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
++ ### We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
 
 ![Alt text](/ScreenShots/1.jpg?raw=true "Title")
 
