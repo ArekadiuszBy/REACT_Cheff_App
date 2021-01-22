@@ -79,53 +79,94 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 #_________________________________________________________________________________________________________
 
-+ ### We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
++ We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
+```
 
 ![Alt text](/ScreenShots/1.jpg?raw=true "Title")
+```diff
 
 ### + Here is validation shown
 
+```
 
 ![Alt text](/ScreenShots/2.jpg?raw=true "Title")
 
+```diff
+
 ### + Here is shown Register Form validation
 
+```
 ![Alt text](/ScreenShots/3.jpg?raw=true "Title")
+
 
 ![Alt text](/ScreenShots/4.jpg?raw=true "Title")
 
-# Here is valid mail name and valid password 
+```diff
++ Here is valid mail name and valid password 
+```
 
 ![Alt text](/ScreenShots/5.jpg?raw=true "Title")
 
-# We can recover our password (animated)
+```diff
++ We can recover our password (animated)
+```
 
 ![Alt text](/ScreenShots/6.jpg?raw=true "Title")
 
+```diff
 # Here is shown in lower left corner SNACKBAR
+```
 
 ![Alt text](/ScreenShots/9.jpg?raw=true "Title")
 
-
+```diff
++
+```
 
 ![Alt text](/ScreenShots/7.jpg?raw=true "Title")
 
+```diff
++
+```
+
 ![Alt text](/ScreenShots/8.jpg?raw=true "Title")
 
-
+```diff
++
+```
 
 ![Alt text](/ScreenShots/10.jpg?raw=true "Title")
 
+```diff
++
+```
+
 ![Alt text](/ScreenShots/11.jpg?raw=true "Title")
+
+```diff
++
+```
 
 ![Alt text](/ScreenShots/12.jpg?raw=true "Title")
 
+```diff
++
+```
+
 ![Alt text](/ScreenShots/13.jpg?raw=true "Title")
 
+```diff
++
+```
+
 ![Alt text](/ScreenShots/14.jpg?raw=true "Title")
+
+```diff
++
+```
 
 ![Alt text](/ScreenShots/15.jpg?raw=true "Title")
 
 
 
-```
+
