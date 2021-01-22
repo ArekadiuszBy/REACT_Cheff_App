@@ -75,19 +75,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+```diff
 
 #_________________________________________________________________________________________________________
 
-## - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ` We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)`
+### + We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
 
 ![Alt text](/ScreenShots/1.jpg?raw=true "Title")
 
-## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Here is validation shown`
+### + Here is validation shown
 
 
 ![Alt text](/ScreenShots/2.jpg?raw=true "Title")
 
-# Here is shown Register Form validation
+### + Here is shown Register Form validation
 
 ![Alt text](/ScreenShots/3.jpg?raw=true "Title")
 
@@ -126,3 +127,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ![Alt text](/ScreenShots/15.jpg?raw=true "Title")
 
 
+
+```
