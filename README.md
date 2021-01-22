@@ -1,9 +1,4 @@
-![Alt text](/ScreenShots/1.jpg?raw=true "Title")
-![Alt text](/ScreenShots/2.jpg?raw=true "Title")
-
-
-
-
+(Screenshots are under ## Available Scripts section)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -73,3 +68,35 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+_________________________________________________________________________________________________________________________________________________________________________________
+![Alt text](/ScreenShots/1.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/2.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/3.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/4.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/5.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/6.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/7.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/8.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/9.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/10.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/11.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/12.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/13.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/14.jpg?raw=true "Title")
+
+![Alt text](/ScreenShots/15.jpg?raw=true "Title")
