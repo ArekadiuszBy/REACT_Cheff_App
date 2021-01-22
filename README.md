@@ -1,7 +1,5 @@
-![Alt text](/ScreenShots/Desktop 2021-01-22 19-55-10-208.png?raw=true "Title")
-![Alt text](/ScreenShots/Desktop 2021-01-22 19-55-21-54.png?raw=true "Title")
-![Alt text](/ScreenShots/Desktop 2021-01-22 19-55-36-614.png?raw=true "Title")
-![Alt text](/ScreenShots/Desktop 2021-01-22 19-55-52-901.png?raw=true "Title")
+![Alt text](/ScreenShots/1.jpg?raw=true "Title")
+![Alt text](/ScreenShots/2.jpg?raw=true "Title")
 
 
 
