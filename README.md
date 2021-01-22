@@ -1,5 +1,11 @@
 (Screenshots are under ## Available Scripts section)
 
+Project of Cookbook for studies.
+### Functionalities add recipe, show your recipes, show all recipes (of every user), edit recipe, data valitadion, register, login, password recovery, logout.
+
+### Project uses MATERIAL-UI, Axios, Snippets, Routes have SnackBars. Have full authorization side,
+_________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,23 +77,40 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 _________________________________________________________________________________________________________________________________________________________________________________
+
+# We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
+
 ![Alt text](/ScreenShots/1.jpg?raw=true "Title")
 
+# Here is validation shown
+
 ![Alt text](/ScreenShots/2.jpg?raw=true "Title")
+
+# Here is shown Register Form validation
 
 ![Alt text](/ScreenShots/3.jpg?raw=true "Title")
 
 ![Alt text](/ScreenShots/4.jpg?raw=true "Title")
 
+# Here is valid mail name and valid password 
+
 ![Alt text](/ScreenShots/5.jpg?raw=true "Title")
 
+# We can recover our password (animated)
+
 ![Alt text](/ScreenShots/6.jpg?raw=true "Title")
+
+# Here is shown in lower left corner SNACKBAR
+
+![Alt text](/ScreenShots/9.jpg?raw=true "Title")
+
+
 
 ![Alt text](/ScreenShots/7.jpg?raw=true "Title")
 
 ![Alt text](/ScreenShots/8.jpg?raw=true "Title")
 
-![Alt text](/ScreenShots/9.jpg?raw=true "Title")
+
 
 ![Alt text](/ScreenShots/10.jpg?raw=true "Title")
 
@@ -100,3 +123,5 @@ ________________________________________________________________________________
 ![Alt text](/ScreenShots/14.jpg?raw=true "Title")
 
 ![Alt text](/ScreenShots/15.jpg?raw=true "Title")
+
+
