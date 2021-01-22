@@ -1,7 +1,7 @@
-(Screenshots are under ## Available Scripts section)
+(Screenshots are under ##Available Scripts section)
 
 Project of Cookbook for studies.
-### Functionalities add recipe, show your recipes, show all recipes (of every user), edit recipe, data valitadion, register, login, password recovery, logout.
+# Functionalities add recipe, show your recipes, show all recipes (of every user), edit recipe, data valitadion, register, login, password recovery, logout.
 
 ### Project uses MATERIAL-UI, Axios, Snippets, Routes have SnackBars. Have full authorization side,
 _________________________________________________________________________________
