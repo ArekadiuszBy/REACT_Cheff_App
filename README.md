@@ -153,6 +153,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 +
 ```
 
+![Alt text](/ScreenShots/x1.jpg?raw=true "Title")
+
+```diff
++
+```
+
+![Alt text](/ScreenShots/x2.jpg?raw=true "Title")
+
+```diff
++
+```
+
 ![Alt text](/ScreenShots/13.jpg?raw=true "Title")
 
 ```diff
@@ -167,6 +179,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ![Alt text](/ScreenShots/15.jpg?raw=true "Title")
 
+```diff
++
+```
 
+
+![Alt text](/ScreenShots/x3.jpg?raw=true "Title")
 
 
