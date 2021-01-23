@@ -6,7 +6,7 @@
 * [Functionalities](#functionalities)
 * [Technologies](#technologies)
 * [Available Scripts](#available-scripts)
-* [Screenshots](#scrennshots)
+* [Screenshots](#screenshots)
 
 ## Functionalities
 
