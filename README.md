@@ -174,7 +174,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ![Alt text](/ScreenShots/14.jpg?raw=true "Title")
 
 ```diff
-+ Here is a sample dish
++ Here is a sample dish (shown on paper-like div)
 ```
 
 ![Alt text](/ScreenShots/15.jpg?raw=true "Title")
