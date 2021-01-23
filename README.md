@@ -1,9 +1,14 @@
 (Screenshots are under **_Available Scripts_** section)
 
+## Table of contents
+* [Functionalities](#functionalities)
+* [Technologies](#technologies)
+* [Available Scripts](#available-scripts)
+* [Screenshots](#scrennshots)
 Project of Cookbook for studies.
 ## Functionalities add recipe, show your recipes, show all recipes (of every user), edit recipe, data valitadion, register, login, password recovery, logout.
 
-## Project uses MATERIAL-UI, Axios, Snippets, Routes have SnackBars. Have full authorization side,
+## Technologies - Project uses MATERIAL-UI, Axios, Snippets, Routes have SnackBars. Have full authorization side,
 _________________________________________________________________________________
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -75,10 +80,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-```diff
+
+
 
 #_________________________________________________________________________________________________________
+```
+## Screenshots
 
+```diff
 + We can login to website using previously registered email and password (Email must contain character, @, mail name, dot, domain | Password must be min. 8 character long)
 ```
 
