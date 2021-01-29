@@ -6,7 +6,7 @@ export const openDrawerActionCreator = () => ({type: DRAWER_OPEN})
 export const closeDrawerActionCreator = () => ({type: DRAWER_CLOSE})
 
 const initialState = {
-    isOpen: true
+    isOpen: false
 
 }
 

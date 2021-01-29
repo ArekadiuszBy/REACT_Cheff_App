@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import { addRecipeAsyncActionCreator } from '../state/recipes'
 
@@ -35,36 +35,31 @@ const AddRecipe = props => {
     })
 
 
-    //Użycie hook-up do formularza
-    const [name, setName] = React.useState(formInStorage.name || '')
+    //Użycie hook-a (specjalna funkcja od mechanizmów reacta) do formularza     // = React.useState(formInStorage.name || '')
+    const [name, setName] = "Hello"
     //Walidacja
     const [nameError, setNameError] = React.useState(false)
     const nameValidate = (value) => {
         //Nadpisujemy wartość, jeśli istnieje, to wszystkie podwójne, lub więcej spacji
         //i zamienia ją na jedną
-       const validValue = value && value.replace(/\s{2,}/g, ' ') // !!!!!!! - Automatyczne usuwanei spacji
+       const validValue = value && value.replace(/\s{2,}/g, ' ') // !!!!!!! - Automatyczne usuwanie spacji
         if (value !== validValue){
             setName(validValue)
         }
         //pusty string przekazany do !value da true
-        const isError = !validValue || validValue.length<MIN_NAME_LENGTH
+        const isError = !validValue || validValue.length < MIN_NAME_LENGTH
         setNameError(isError)
         return isError
     }
 
     const setValidName = (string) => {
         //Nie pozwoli na wpisanie więcej niż 45 (MAX_NAME_LENGTH)
-        if (string.length <MAX_NAME_LENGTH){
+        if (string.length < MAX_NAME_LENGTH){
             setName(string)
         }
     }
 
-    //Zabezpieczenie przed liczbami ujemnymi w czasie przygotowania
-    const setValidTime = value => {
-        //if time<0=0,else if time>240=set 240, else wartość 
-        setTime(value < 0 ? 0 : value > MAX_TIME ? MAX_TIME : value)
-    }
-
+                                    //
 const [description, setDescription] = React.useState(formInStorage.description || '')
 const [descriptionError, setDescriptionError] = React.useState(false)
 const descriptionValidate = value => {
@@ -83,7 +78,8 @@ const descriptionValidate = value => {
         }
     }
 
-    const [time, setTime] = React.useState(formInStorage.time || '')
+                            //
+    const [time, setTime]  = React.useState(formInStorage.time || '')
     const [timeError, setTimeError] = React.useState(false)
     const timeValidate = (value) => {
         //zabezpieczenie przed wstawianiem przecinków, myślników itd,
@@ -96,7 +92,7 @@ const descriptionValidate = value => {
         return isError
         }
     
-    const SetValidTime = value => {
+    const setValidTime = value => {
         setTime(value < 0 ? 0 : value > MAX_TIME ? MAX_TIME : value)
     }
     //Obraz brany z zewnątrz i zapisywany w bazie
@@ -109,7 +105,7 @@ const descriptionValidate = value => {
         setPhotoError(isError)
         return isError
     }
-
+                                        
 const [ingredients, setIngredients] = React.useState(formInStorage.ingredients || [])
 const [ingredientsError, setIngredientsError] = React.useState(false)
 const ingredientsValidate = value => {

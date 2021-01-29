@@ -1,3 +1,4 @@
+//Formularz logowania
 import React from 'react'
 import { Paper, Typography, TextField, Button, Collapse } from '@material-ui/core'
 
@@ -14,7 +15,7 @@ const LogInForm = props =>{
     const [emailError, setEmailError] = React.useState(false)
     const emailValidate = value => {
         //email regex, jak znajdzie coś w tablicy to zwraca true
-        const isError = !value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+        const isError = !value.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
         setEmailError(isError)
         return isError
     }
@@ -31,7 +32,7 @@ const LogInForm = props =>{
         const isPwdError = pwdValidate(pwd)
 
         if(!isEmailError && !isPwdError){
-            console.log('próba logowania')
+           props._logIn(email, pwd)
         }
     }
     
@@ -45,15 +46,15 @@ const LogInForm = props =>{
     const [forgotEmail, setforgotEmail] = React.useState('')
     const [forgotEmailError, setforgotEmailError] = React.useState(false)
     const forgotEmailValidate = value => {
-        const isError = !value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+        const isError = !value.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
         setforgotEmailError(isError)
         return isError
     }
 
     const forgotOnSubmit = () => {
-        const isEmailError = forgotEmailValidate(forgotEmail)
+        const isEmailError = forgotEmailValidate(forgotEmail)  
         if(!isEmailError){
-            console.log('próba wysłania')
+            props._resetPassword(forgotEmail, () => setIsForgotPanelOpen(false)) //(false) - zamykanie panelu "Przywróć hasło" (auth.js)
         }
     }
 

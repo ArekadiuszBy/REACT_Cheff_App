@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter, Route} from 'react-router-dom'
 
 import FullScreenCircuralProgress from './components/FullScreenCircuralProgress'
 import Snackbars from './components/Snackbars'
@@ -23,7 +23,8 @@ const App = props => {
                <Route path='/' exact component={Dashboard} />
                <Route path='/add-recipe' component={AddRecipe} />
                <Route path='/recipes' component={Recipes} />
-               <Route path='/your-recipes' component={UserRecipes} />
+               <Route path='/your-recipes/:id?' component={UserRecipes}   // "/" podanie ścieżki, a "?" daje możliwość podania opcjonalnego parametru (można go podać, ale nie trzeba)
+               />      
                <Route path='/change-password' component={ChangePassword} />
             </BrowserRouter>
         </Auth>

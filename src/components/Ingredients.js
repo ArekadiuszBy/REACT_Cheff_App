@@ -150,7 +150,7 @@ const Ingredients = props => {
            style={styles.paper} >
                     <Typography
                     align='center'
-                    >
+                   >
                         Składniki:
                     </Typography>
                     

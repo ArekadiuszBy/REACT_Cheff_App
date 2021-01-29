@@ -3,6 +3,7 @@ import React from 'react'
 
 import {connect} from 'react-redux'
 import {openDrawerActionCreator} from '../state/drawer'
+import { logOutActionCreator} from '../state/auth'
 
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
@@ -15,7 +16,7 @@ import SettingsIcon from '@material-ui/icons/Settings'
 import logo from '../img/logo.png'
 
 const styles = {
-    toolbar: { justifyContent: 'space-between'},
+    toolbar: { justifyContent: 'space-between', size:'100%'},
     logo: { cursor: 'pointer'},
     link: {textDecoration:'none', color:'black'}
 }
@@ -74,11 +75,13 @@ const MenuAppBar = props => {
                             }}
                             open={open}
                             onClose={handleClose}
-                        >   <Link to='/change-password' style={styles.link}>
+                        >   
+                        
+                        <Link to='/change-password' style={styles.link}>
                                 <MenuItem onClick={handleClose}>Zmień hasło</MenuItem>
                             </Link>
                             <Link to='/' style={styles.link}>
-                                <MenuItem onClick={handleClose}>Wyloguj sie</MenuItem>
+                                <MenuItem onClick={props._logOut}>Wyloguj sie</MenuItem>
                             </Link>
                         </Menu>
                     </div>
@@ -89,7 +92,8 @@ const MenuAppBar = props => {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-    _drawerOpen: () => dispatch(openDrawerActionCreator)
+    _drawerOpen: () => dispatch(openDrawerActionCreator()),
+    _logOut: () => dispatch(logOutActionCreator())
 })
 
 export default connect(
